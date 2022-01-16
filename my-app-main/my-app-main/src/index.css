@@ -1,0 +1,98 @@
+body {
+  background-image: url(./bgCover.jpg);
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.todo-input {
+  width: 35%;
+  height: 65px;
+  margin-bottom: 3rem !important;
+}
+
+.todo-btn {
+  height: 50px;
+  font-size: 20px;
+}
+
+.form-control {
+  font-size: 25px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.todo-container .w-25 {
+  width: 32% !important;
+}
+
+.card {
+  background-color: #748d9d;
+  height: 170px;
+}
+
+.card-title {
+  margin-bottom: 2.75rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.coding-logo {
+  height: 530px !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .todo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .todo-container,
+  .mb-5.todo-form {
+    padding: 10px !important;
+  }
+  .todo-container .w-25 {
+    width: 100% !important;
+  }
+  .todo-input,
+  #basic-url {
+    width: 80% !important;
+  }
+
+  #basic-addon3 {
+    width: 15rem;
+  }
+  .card-body > div {
+    flex-direction: column;
+  }
+  .card {
+    height: 225px !important;
+  }
+  .todo-btn {
+    font-size: 13px;
+  }
+  .carouselCont {
+    margin-top: 50% !important;
+  }
+  .coding-logo {
+    height: 200px !important;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+}
